@@ -1,4 +1,6 @@
 -- Create database table
+-- "schema" or "table definitions"nshare this code for create table 
+--                      to show what it can do or store
 
 CREATE TABLE task (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -7,7 +9,7 @@ CREATE TABLE task (
     is_done BOOLEAN DEFAULT 0
 );
 
--- Generate some dummy data
+-- Generate some dummy data below with insert into task to test end points 
 
 INSERT INTO task (
     summary,
